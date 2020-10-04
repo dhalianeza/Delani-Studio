@@ -1,0 +1,105 @@
+
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('./assets/backgrounds/h_img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.services-img {
+    height: 10vh;
+    min-height: 500px;
+    background-image: url('./assets/backgrounds/s_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact {
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fdelaniimaya.netlify.app%2Fcss%2Fc_image.jpg&imgrefurl=https%3A%2F%2Fdelaniimaya.netlify.app%2F&tbnid=bpp3i_WBFpP7AM&vet=12ahUKEwjz9vGAkZnsAhUNphQKHWISBjEQMygFegUIARClAQ..i&docid=u4pMJATaAvXwgM&w=1920&h=683&q=delani%20studio%20image&ved=2ahUKEwjz9vGAkZnsAhUNphQKHWISBjEQMygFegUIARClAQ");
+    background-size: cover;
+    background-position: cover;
+    background-repeat:no-repeat;
+}
+.form-cont input {
+    width: 49%;
+    background: transparent;
+    color: white;
+}
+.form-cont textarea {
+    margin-top: 10px;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+.form-cont {
+    text-align: center;
+    position: relative;
+    width: 700px;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+::placeholder{
+    font-size: 10px;
+    color: white;
+}
+#contact h1{
+    color: white;
+}
+.con {
+    padding-bottom: 30px;
+}
+.social img {
+    border-radius: 50%;
+    transition: 0.2s ease-out;
+}
+.social img:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    margin: -3px;
+    padding: 3px;
+    background: yellowgreen;
+}
+#links{
+    margin:50px;
+}
+body{
+    overflow-x: hidden;
+}
+#row featurette text-center p-5 mt-5:hover{
+    background-color:	#808080;
+}
+h2{ 
+    display:center;
+    text-align: center;
+}
+.whatWeDo {
+    margin-bottom: 4%;
+}
+.whatWeDo image:hover {
+    cursor: pointer,
+}
+.what {
+    margin-bottom: 30px;
+}
+.hideMe {
+    display: none;
+}
+.WhatWedo {
+    color:red
+}
+.WhatWedo{
+    position: relative;
+    width: 50%;
+}
+.column-1:hover{
+    display: none;
+
+}
+.column-1:hover > .hideMe{
+    display: block;
+}
