@@ -1,5 +1,5 @@
 
-
+<style>
 .masthead {
     height: 100vh;
     min-height: 500px;
@@ -18,6 +18,8 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+</style>
+
 .contact {
     background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fdelaniimaya.netlify.app%2Fcss%2Fc_image.jpg&imgrefurl=https%3A%2F%2Fdelaniimaya.netlify.app%2F&tbnid=bpp3i_WBFpP7AM&vet=12ahUKEwjz9vGAkZnsAhUNphQKHWISBjEQMygFegUIARClAQ..i&docid=u4pMJATaAvXwgM&w=1920&h=683&q=delani%20studio%20image&ved=2ahUKEwjz9vGAkZnsAhUNphQKHWISBjEQMygFegUIARClAQ");
     background-size: cover;
